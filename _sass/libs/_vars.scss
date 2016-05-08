@@ -27,8 +27,16 @@
 	);
 
 // Font.
+	@font-face {
+		font-family: 'Caslon';
+		src: url('/fonts/CaslonOS-Regular.otf');
+	}
+	@font-face {
+		font-family: 'Optimus';
+		src: url('/fonts/OptimusPrincepsSemiBold.ttf');
+	}
 	$font: (
-		family:				('Open Sans', Helvetica, sans-serif),
+		family:				('Optimus', Times),
 		family-fixed:		('Courier New', monospace),
 		weight:				400,
 		weight-bold:		600,
